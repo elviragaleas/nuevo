@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espacio Principal</title>
+</head>
+<body>
+    <div style="text-align:center;">
+        <!-- Logo en formato jpg -->
+        <img src="images.jpg" alt="Logo" width="400px">
+        <br><br>
+        <!-- Mensaje de espera -->
+        <p>Por favor espere, estamos cargando su información...</p>
+    </div>
+
+    <!-- Redirección a otra página después de un minuto -->
+    <script>
+        setTimeout(function() {
+            window.location.href = 'otra_pagina.html';
+        }, 60000); // 30000 milisegundos = 30 segundos
+    </script>
+</body>
+</html>
